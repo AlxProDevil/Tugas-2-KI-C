@@ -1,7 +1,7 @@
 import socket
 from des import des_decrypt_ecb, des_encrypt_ecb
 
-HOST = '127.0.0.1'  # localhost
+HOST = '0.0.0.0'  # localhost
 PORT = 65432        # arbitrary port
 
 key = input("Enter 8-character key: ").encode("utf-8")

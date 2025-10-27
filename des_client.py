@@ -1,7 +1,7 @@
 import socket
 from des import des_encrypt_ecb, des_decrypt_ecb
 
-HOST = '127.0.0.1'
+HOST = input("Enter the server's IP address: ").strip()
 PORT = 65432
 
 key = input("Enter 8-character key: ").encode("utf-8")
